@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "CODERGALAXY",
+    "subtitle": "Physical Truth Agricultural Procurement Platform",
+    "tagline": "FROM DIGITAL BOOKING TO PHYSICAL TRUTH",
+    "hackathon": "Smart India Hackathon SIH 2026",
+    "problemStatement": "SIH26032",
+    "centre": "Bhopal Mandi Complex — Yard 04"
+  },
+  "roles": {
+    "farmer": "Farmer Portal",
+    "csc": "CSC Rural Operator",
+    "staff": "Yard Weighbridge Staff",
+    "supervisor": "Centre Supervisor",
+    "admin": "State APMC Admin"
+  },
+  "farmer": {
+    "greeting": "GOOD MORNING",
+    "heroPrompt": "Ready to procure your harvest?",
+    "primaryAction": "BOOK PROCUREMENT",
+    "trackAction": "TRACK BOOKING",
+    "queueAction": "QUEUE STATUS",
+    "paymentAction": "PAYMENT STATUS",
+    "currentCentre": "BHOPAL PROCUREMENT CENTRE 04",
+    "operatingSmoothly": "OPERATING SMOOTHLY",
+    "expectedTurn": "Expected Turn",
+    "expectedTurnWindow": "10:20 AM – 10:50 AM",
+    "smartPhoneNotRequired": "SMARTPHONE NOT REQUIRED",
+    "smsInfo": "Send 'CG BOOK' to 51969 or dial 1800-200-5196 for toll-free assisted IVR"
+  },
+  "booking": {
+    "step1": "Select Crop",
+    "step2": "Enter Quantity",
+    "step3": "Select Centre",
+    "step4": "Arrival Window",
+    "step5": "Confirm Booking",
+    "quantityHelp": "Enter the approximate quantity you expect to bring in quintals (q).",
+    "confirmButton": "CONFIRM PROCUREMENT BOOKING",
+    "tokenGenerated": "PROCUREMENT TOKEN GENERATED",
+    "tokenSubtitle": "Digital booking locked with Physical Yard allocation"
+  },
+  "hardware": {
+    "title": "WEIGHBRIDGE HARDWARE CONSOLE",
+    "attestation": "TIER 1 ATTESTED",
+    "gross": "GROSS WEIGHT",
+    "tare": "TARE WEIGHT",
+    "net": "NET PAYLOAD",
+    "pipeline": "RS232 → ESP32 → MQTT → STATE ENGINE → LOCKED",
+    "manualFallback": "MANUAL FALLBACK",
+    "bypassWarning": "HARDWARE BYPASS FLAG — SUPERVISOR AUTHORIZATION REQUIRED"
+  },
+  "queue": {
+    "title": "WDRR ANTI-STARVATION QUEUE CONTROL",
+    "normalLane": "Q1 Normal Lane",
+    "exceptionLane": "Q2 Exception Lane",
+    "assistedLane": "Q3 Assisted Lane",
+    "nonPreemptive": "NON-PREEMPTIVE LOCK ACTIVE",
+    "credit": "Credit",
+    "debt": "Debt"
+  },
+  "capacity": {
+    "title": "SILO CAPACITY INVARIANT",
+    "cMax": "Cmax (Total Yard Limit)",
+    "physicalOccupied": "Physical Occupied",
+    "futureReserved": "Future Reserved",
+    "safeAllocatable": "Safe Allocatable",
+    "paused": "BOOKING GENERATION PAUSED",
+    "pausedReason": "No safe physical capacity remains in storage silos."
+  },
+  "parity": {
+    "title": "PHYSICAL YARD ↔ DIGITAL LEDGER PARITY",
+    "physicalReality": "PHYSICAL REALITY",
+    "digitalRecord": "DIGITAL RECORD",
+    "zeroDrift": "0 SKEW DRIFT DETECTED",
+    "parityLock": "PARITY LOCK SECURED"
+  },
+  "offline": {
+    "title": "LOCAL P2P MESH REPLAY BUFFER",
+    "onlineStatus": "P2P MESH ONLINE",
+    "offlineTitle": "OFFLINE MODE — LOCAL OPERATIONS ACTIVE",
+    "simulateCut": "SIMULATE OFFLINE CUT",
+    "reconnect": "RECONNECT TO APMC CLOUD",
+    "transferCapacity": "TRANSFER LOCAL CAPACITY QUOTA"
+  }
+}

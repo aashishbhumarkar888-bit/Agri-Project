@@ -1,0 +1,6 @@
+{
+  "name": "CODERGALAXY — Farmer Digital Harvest Journey",
+  "description": "Smart India Hackathon SIH 26032: CODERGALAXY Agricultural Procurement OS — Admin Digital Twin Dashboard, Edge Operator Offline PWA, and Farmer Multi-Channel View.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
